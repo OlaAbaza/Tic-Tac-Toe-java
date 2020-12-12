@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="632.0">
+         <children>
+            <AnchorPane fx:id="layer1" layoutX="309.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="491.0">
+               <children>
+                  <ImageView fx:id="add_img" fitHeight="71.0" fitWidth="75.0" layoutX="225.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/profile.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField fx:id="fnam_txt" focusColor="#025799" labelFloat="true" layoutX="148.0" layoutY="141.0" opacity="0.55" prefHeight="29.0" prefWidth="230.0" promptText="FirstName">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="lname_txt" focusColor="#025799" labelFloat="true" layoutX="148.0" layoutY="204.0" opacity="0.55" prefHeight="29.0" prefWidth="230.0" promptText="LastName">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="uname_txt" focusColor="#025799" labelFloat="true" layoutX="148.0" layoutY="262.0" opacity="0.75" prefHeight="29.0" prefWidth="230.0" promptText="UserName">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </JFXTextField>
+                 
+                  
+                        <JFXRadioButton fx:id="radio_btn_f" layoutX="318.0" layoutY="336.0" style="-jfx-selected-color: #50C1E9;" text="Female   " />
+                        <JFXRadioButton fx:id="radio_btn_m" layoutX="232.0" layoutY="336.0" style="-jfx-selected-color: #50C1E9;" text="Male" />
+                  
+                 
+                  <Label fx:id="gender_label" layoutX="148.0" layoutY="334.0" opacity="0.75" text="Gender">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXPasswordField fx:id="pass_txt" focusColor="#025799" labelFloat="true" layoutX="148.0" layoutY="374.0" opacity="0.75" prefHeight="29.0" prefWidth="230.0" promptText="Password">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <JFXButton fx:id="add_btn" layoutX="237.0" layoutY="434.0" styleClass="add_btn" text="Add" />
+                  <PieChart fx:id="pieChart" layoutY="34.0" title="Users Status" />
+                  <Label fx:id="onLable" layoutX="137.0" layoutY="377.0" text="(4 users)" />
+                  <Label fx:id="offLable" layoutX="197.0" layoutY="377.0" text="(3 users)" />
+                  <Label fx:id="busyLable" layoutX="274.0" layoutY="380.0" text="(5 Users)" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="layer" cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="309.0" style="-fx-background-color: #025799;" styleClass="left_menu" StackPane.alignment="CENTER_LEFT">
+         <children>
+            <ImageView fx:id="chart_img" fitHeight="134.0" fitWidth="135.0" layoutX="89.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/slogo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="l1" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="203.0" prefHeight="39.0" prefWidth="211.0" text="Server App " textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="250.0" prefHeight="23.0" prefWidth="267.0" text="To Add New User Click Here" textAlignment="CENTER" textFill="WHITE" />
+            <JFXButton fx:id="add_btn1" layoutX="87.0" layoutY="293.0" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #025799; -fx-border-color: white; -fx-text-fill: white;" styleClass="menu_btn" text="Add">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="l21" alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="260.0" prefHeight="23.0" prefWidth="267.0" text="To See The User Status Chart Click Here" textAlignment="CENTER" textFill="WHITE" />
+            <JFXButton fx:id="chart_btn" layoutX="97.0" layoutY="303.0" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #025799; -fx-border-color: white; -fx-text-fill: white;" styleClass="menu_btn" text="Chart">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fx:id="deactive_img" fitHeight="127.0" fitWidth="125.0" layoutX="98.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/power.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="active_img" fitHeight="127.0" fitWidth="125.0" layoutX="98.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/power2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
