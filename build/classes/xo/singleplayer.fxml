@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="380.0" styleClass="bg_img" stylesheets="@style.css">
+         <children>
+            <ImageView fitHeight="242.0" fitWidth="359.0" layoutX="33.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Player1.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="name_txt" layoutX="82.0" layoutY="219.0" prefHeight="41.0" prefWidth="223.0" promptText="Enter Name" style="-fx-background-color: #004570;">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="105.0" fitWidth="102.0" layoutX="143.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/PLayer.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="start_btn" fitHeight="73.0" fitWidth="193.0" layoutX="99.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Start.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="sound_btn" fitHeight="41.0" fitWidth="47.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/volume2x.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back_btn" fitHeight="64.0" fitWidth="61.0" layoutX="14.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rec_btn" fitHeight="62.0" fitWidth="96.0" layoutX="156.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/record2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

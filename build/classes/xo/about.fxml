@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="90.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/About%20txt.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="11.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic Tac Toe game is made in 2020 by an ItI team of mobile native track intake 41, the team are:" wrappingWidth="366.8984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <VBox layoutX="55.0" layoutY="197.0" prefHeight="132.0" prefWidth="291.0" spacing="5.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-  Ola Elwy Abaza" wrappingWidth="223.77734375">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Tasneem Mostafa" wrappingWidth="227.77734375">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Ahmed Amr" wrappingWidth="171.77734375">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Aymen Omera" wrappingWidth="203.77734375">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <ImageView fx:id="back" fitHeight="72.0" fitWidth="63.0" layoutX="14.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/back.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

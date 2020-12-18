@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="380.0">
+         <children>
+            <ImageView fitHeight="525.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="80.0" layoutY="104.0" text="View All Records" textFill="WHITE">
+               <font>
+                  <Font name="Luducudu" size="32.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="play_btn" fitHeight="74.0" fitWidth="197.0" layoutX="93.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Start.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="61.0" fitWidth="59.0" layoutX="14.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sound" fitHeight="44.0" fitWidth="49.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/volume2x.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="soundOff" fitHeight="44.0" fitWidth="49.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/volumemute2x.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="comboBox" layoutX="80.0" layoutY="200.0" prefHeight="37.0" prefWidth="219.0" promptText="SELECT" />
+            <ImageView fx:id="playPressed" fitHeight="127.0" fitWidth="101.0" layoutX="150.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/PlayButten%20Pressed.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
