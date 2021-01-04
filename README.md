@@ -48,7 +48,7 @@ Online mode
 </br>
 
  **The Server App**
-https://github.com/OlaAbaza/Tic-Tac-Toe-java
+
 </br>
 <img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/main/images/2.PNG" width="650" height="400"/>
 
