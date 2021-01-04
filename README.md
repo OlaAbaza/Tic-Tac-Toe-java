@@ -50,17 +50,17 @@ Online mode
  **The Server App**
 https://github.com/OlaAbaza/Tic-Tac-Toe-java
 </br>
-<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/master/images/2.PNG" width="650" height="400"/>
+<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/main/images/2.PNG" width="650" height="400"/>
 
 ***
 
-<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/master/images/1.PNG" width="650" height="400"/>
+<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/main/images/1.PNG" width="650" height="400"/>
 </br>
 
  **Online mode**
 
 </br>
-<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/master/images/3.PNG" width="650" height="400"/>
+<img src="https://github.com/OlaAbaza/Tic-Tac-Toe-java/blob/main/images/3.PNG" width="650" height="400"/>
 
 ***
 
