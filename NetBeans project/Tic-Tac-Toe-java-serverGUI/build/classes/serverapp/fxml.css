@@ -1,0 +1,67 @@
+
+.stack_pane:hover {
+    -fx-background-color: white;
+    -fx-background-insets: 2; 
+    -fx-effect: dropshadow(three-pass-box,black, 10, 0, 0, 0);
+
+}
+.add_btn{
+    -fx-background-color:#025799;
+    -fx-font-family: Roboto;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 20px
+}
+
+.add_btn:hover {
+    -fx-border-color:#025799;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    -fx-text-fill:#025799;
+
+}
+
+.add_btn:pressed {
+    -fx-rotate: 12
+}
+.primary_stage {
+    -fx-background-image:url("/images/layer_1.png");
+    -fx-background-size:100% 100%;
+
+
+}
+.slideder {
+    -fx-background-image:url("/images/Layer_2.png");
+    -fx-background-size:100% 100%;
+
+
+}
+.slideder_btn{
+    -fx-background-color: #025799;
+    -fx-border-radius: 200; 
+    -fx-border-color: white; 
+    -fx-background-radius: 200; 
+    -fx-text-fill: white;
+
+}
+
+.default-color0.chart-pie { -fx-pie-color:  #025799; }
+.default-color1.chart-pie { -fx-pie-color: gray; }
+.default-color2.chart-pie { -fx-pie-color: red; }
+
+
+.chart-pie-label-line {
+    -fx-stroke: #8b4513;
+    -fx-fill: #8b4513;
+}
+
+.chart-pie-label {
+    -fx-fill: #8b4513;
+    -fx-font-size: 1em;
+} 
+.chart-legend {
+    -fx-padding:10px;
+    -fx-stroke: #daa520;
+}
+
