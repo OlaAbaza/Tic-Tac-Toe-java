@@ -6,7 +6,7 @@ it is a relatively simple game usually played on a grid of 3-by-3 squares, tic-t
 played online with other user or offline the computer and even to choose the mode whether easy, medium or hard by implementing some AI algorithms
 and in this project, we introduce another experience in tic tac toe by implementing attractive GUI with relaxation music to gain the users attentions.
 
-<img src="xo.gif" width="350" height="534" />
+<img src="XOgame.gif" width="350" height="534" />
 
 
 ## Getting Started
